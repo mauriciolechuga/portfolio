@@ -7,26 +7,27 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="HTML" />
-        <SkillList src={checkMarkIcon} skill="CSS" />
-        <SkillList src={checkMarkIcon} skill="Javascript" />
-        <SkillList src={checkMarkIcon} skill="Typescript" />
-        <SkillList src={checkMarkIcon} skill="Node" />
+        <SkillList src={checkMarkIcon} skill="Agile" />
+        <SkillList src={checkMarkIcon} skill="Project Planning" />
+        <SkillList src={checkMarkIcon} skill="Stakeholder Communication" />
+        <SkillList src={checkMarkIcon} skill="Risk Management" />
+        <SkillList src={checkMarkIcon} skill="Requirements Gathering" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="React" />
-        <SkillList src={checkMarkIcon} skill="Angular" />
-        <SkillList src={checkMarkIcon} skill="Vue" />
-        <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+        <SkillList src={checkMarkIcon} skill="HTML, CSS, JavaScript" />
+        <SkillList src={checkMarkIcon} skill="Git / Github" />
+        <SkillList src={checkMarkIcon} skill="SQL / Data Querying" />
+        <SkillList src={checkMarkIcon} skill="Google Looker Studio" />
+        <SkillList src={checkMarkIcon} skill="Basic API Integration" />
       </div>
       <hr />
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Redux" />
-        <SkillList src={checkMarkIcon} skill="Webpack" />
-        <SkillList src={checkMarkIcon} skill="Git" />
-        <SkillList src={checkMarkIcon} skill="Jest" />
-        <SkillList src={checkMarkIcon} skill="Bootstrap" />
+        <SkillList src={checkMarkIcon} skill="Digital Strategy" />
+        <SkillList src={checkMarkIcon} skill="Content Planning & SEO" />
+        <SkillList src={checkMarkIcon} skill="CRM Tools" />
+        <SkillList src={checkMarkIcon} skill="Performance Reporting" />
+        <SkillList src={checkMarkIcon} skill="Cross-Channel Communication" />
       </div>
     </section>
   );

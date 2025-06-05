@@ -3,7 +3,7 @@ import heroImg from "../../assets/profile-pic-mlechuga.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/mauricio-lechuga-project-manager.pdf";
 import { useTheme } from "../../common/ThemeContext.jsx";
 
 function Hero() {
@@ -53,9 +53,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I am a Project Manager and Frontend Developer with a passion for
-          creating user-friendly and efficient web applications. I love
-          collaborating with teams to bring innovative ideas to life.
+          I bridge marketing, technology, and project management to help teams
+          move smarter and achieve their goals.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
