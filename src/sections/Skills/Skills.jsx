@@ -7,7 +7,7 @@ function Skills() {
     <section id="skills" className={styles.container}>
       <h1 className="sectionTitle">Skills</h1>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Agile" />
+        <SkillList src={checkMarkIcon} skill="Agile Methodologies" />
         <SkillList src={checkMarkIcon} skill="Project Planning" />
         <SkillList src={checkMarkIcon} skill="Stakeholder Communication" />
         <SkillList src={checkMarkIcon} skill="Risk Management" />
@@ -16,7 +16,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML, CSS, JavaScript" />
-        <SkillList src={checkMarkIcon} skill="Git" />
+        <SkillList src={checkMarkIcon} skill="Git / Github" />
         <SkillList src={checkMarkIcon} skill="SQL / Data Querying" />
         <SkillList src={checkMarkIcon} skill="Google Looker Studio" />
         <SkillList src={checkMarkIcon} skill="Basic API Integration" />
