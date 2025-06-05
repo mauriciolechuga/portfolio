@@ -9,6 +9,9 @@
 
   .hero {
     max-width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
   }
 
   span {
@@ -20,7 +23,14 @@
       margin: 0;
 
       img {
-        width: 30px;
+        width: 40px;
+        height: 40px;
+        transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+      }
+
+      img:hover {
+        transform: translateY(-3px);
+        opacity: 0.8;
       }
     }
   }
@@ -100,4 +110,17 @@
       width: 400px;
     }
   }
+}
+
+.socialIcon {
+  width: 40px;
+  height: 40px;
+  color: var(--text-color);
+  transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+  cursor: pointer;
 }
