@@ -16,7 +16,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="HTML, CSS, JavaScript" />
-        <SkillList src={checkMarkIcon} skill="Git / Github" />
+        <SkillList src={checkMarkIcon} skill="Git" />
         <SkillList src={checkMarkIcon} skill="SQL / Data Querying" />
         <SkillList src={checkMarkIcon} skill="Google Looker Studio" />
         <SkillList src={checkMarkIcon} skill="Basic API Integration" />
@@ -24,7 +24,7 @@ function Skills() {
       <hr />
       <div className={styles.skillList}>
         <SkillList src={checkMarkIcon} skill="Digital Strategy" />
-        <SkillList src={checkMarkIcon} skill="Content Planning & SEO" />
+        <SkillList src={checkMarkIcon} skill="Content Planning" />
         <SkillList src={checkMarkIcon} skill="CRM Tools" />
         <SkillList src={checkMarkIcon} skill="Performance Reporting" />
         <SkillList src={checkMarkIcon} skill="Cross-Channel Communication" />

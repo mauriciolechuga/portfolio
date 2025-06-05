@@ -28,7 +28,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Mauricio Lechuga</h1>
-        <h2>Project Manager / Junior Developer</h2>
+        <h2>Project Manager | Junior Developer</h2>
         <span>
           <a
             href="https://instagram.com/mlechuga"
