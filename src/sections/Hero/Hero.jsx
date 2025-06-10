@@ -45,7 +45,7 @@ function Hero() {
             <FaGithub className={styles.socialIcon} />
           </a>
           <a
-            href="https://linkedin.com/mlechuga"
+            href="https://www.linkedin.com/in/mlechuga/"
             target="_blank"
             rel="noopener noreferrer"
           >
